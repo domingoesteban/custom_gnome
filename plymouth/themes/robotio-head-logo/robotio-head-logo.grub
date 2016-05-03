@@ -1,0 +1,8 @@
+#  Based on "ubuntu-gnome-logo.grub" written by:
+#              Alfredo Hernández   <aldomann.designs@gmail.com>
+#              Repository: https://github.com/UbuntuGNOMEMarketing/ubuntu-gnome-artwork
+#              LICENSE: Creative Commons Attribution-ShareAlike 4.0 International License
+
+if background_color 45,51,53; then
+  clear
+fi
