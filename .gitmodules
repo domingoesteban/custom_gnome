@@ -1,3 +1,6 @@
 [submodule "icons/Super-Flat-Remix"]
 	path = icons/Super-Flat-Remix
 	url = https://github.com/daniruiz/Super-Flat-Remix
+[submodule "themes/Numix-Blue"]
+	path = themes/Numix-Blue
+	url = git@github.com:aceat64/Numix-Blue.git
