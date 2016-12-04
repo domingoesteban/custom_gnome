@@ -4,3 +4,6 @@
 [submodule "themes/Numix-Blue"]
 	path = themes/Numix-Blue
 	url = git@github.com:aceat64/Numix-Blue.git
+[submodule "themes/Flat-Remix"]
+	path = themes/Flat-Remix
+	url = git@github.com:daniruiz/Flat-Remix-GNOME-theme.git
