@@ -1,14 +1,14 @@
 <background>
   <starttime>
-    <year>2016</year>
-    <month>07</month>
-    <day>19</day>
-    <hour>7</hour>
+    <year>2020</year>
+    <month>01</month>
+    <day>01</day>
+    <hour>07</hour>
     <minute>00</minute>
     <second>00</second>
   </starttime>
 
-  <!-- This animation will start at 7 AM. -->
+  <!-- This animation starts at 7 AM. -->
 
   <!-- We start with sunrise at 7 AM. It will remain up for 1 hour. -->
   <static>
@@ -17,11 +17,15 @@
   </static>
 
   <!-- Sunrise starts to transition to day at 8 AM. The transition lasts for 5 hours, ending at 1 PM. -->
-  <transition type="overlay">
+  <!--<transition type="overlay">-->
+    <!--<duration>18000.0</duration>-->
+    <!--<from>.local/share/themes/Robotio/backgrounds/robotio-green.png</from>-->
+    <!--<to>.local/share/themes/Robotio/backgrounds/robotio-cyan.png</to>-->
+  <!--</transition>-->
+  <static>
     <duration>18000.0</duration>
-    <from>.local/share/themes/Robotio/backgrounds/robotio-green.png</from>
-    <to>.local/share/themes/Robotio/backgrounds/robotio-cyan.png</to>
-  </transition>
+    <file>.local/share/themes/Robotio/backgrounds/robotio-green.png</file>
+  </static>
 
   <!-- It's 1 PM, we're showing the day image in full force now, for 5 hours ending at 6 PM. -->
   <static>
@@ -30,11 +34,15 @@
   </static>
 
   <!-- It's 7 PM and it's going to start to get darker. This will transition for 6 hours up until midnight. -->
-  <transition type="overlay">
+  <!--<transition type="overlay">-->
+    <!--<duration>21600.0</duration>-->
+    <!--<from>.local/share/themes/Robotio/backgrounds/robotio-blue.png</from>-->
+    <!--<to>.local/share/themes/Robotio/backgrounds/robotio-blue.png</to>-->
+  <!--</transition>-->
+  <static>
     <duration>21600.0</duration>
-    <from>.local/share/themes/Robotio/backgrounds/robotio-cyan.png</from>
-    <to>.local/share/themes/Robotio/backgrounds/robotio-blue.png</to>
-  </transition>
+    <file>.local/share/themes/Robotio/backgrounds/robotio-cyan.png</file>
+  </static>
 
   <!-- It's midnight. It'll stay dark for 5 hours up until 5 AM. -->
   <static>
@@ -43,9 +51,13 @@
   </static>
 
   <!-- It's 5 AM. We'll start transitioning to sunrise for 2 hours up until 7 AM. -->
-  <transition type="overlay">
+  <!--<transition type="overlay">-->
+    <!--<duration>7200.0</duration>-->
+    <!--<from>.local/share/themes/Robotio/backgrounds/robotio-blue.png</from>-->
+    <!--<to>.local/share/themes/Robotio/backgrounds/robotio-red.png</to>-->
+  <!--</transition>-->
+  <static>
     <duration>7200.0</duration>
-    <from>.local/share/themes/Robotio/backgrounds/robotio-blue.png</from>
-    <to>.local/share/themes/Robotio/backgrounds/robotio-red.png</to>
-  </transition>
+    <file>.local/share/themes/Robotio/backgrounds/robotio-blue.png</file>
+  </static>
 </background>
